@@ -2,7 +2,7 @@
 // Register Homepage Icons
 genesis_register_sidebar( array(
 	'id'		=> 'homepage-icons',
-	'name'	=> __('Homepage Icons:hello', 'jessica'),
+	'name'	=> __('Homepage Icons', 'jessica'),
 	'description'		=> __('Create Homepage Icon Textareas - These should be added in groups of three.', 'jessica'),
 	)
 );
@@ -10,7 +10,7 @@ class Homepage_Icon extends WP_Widget {
 	public function __construct() {
 		parent::__construct(
 			'homepageicon',
-			__( 'Homepage Icons:hello', 'jessica' ),
+			__( 'Homepage Icons', 'jessica' ),
 			array(
 				'description' => __( 'Add Icon Textareas to the homepage.', 'jessica' ),
 				'classname'   => 'home-icon',
