@@ -2,7 +2,7 @@
 // Register Homepage Icons
 genesis_register_sidebar( array(
 	'id'		=> 'homepage-icons',
-	'name'	=> __('Homepage Icons', 'jessica'),
+	'name'	=> __('Homepage Icons:hello', 'jessica'),
 	'description'		=> __('Create Homepage Icon Textareas - These should be added in groups of three.', 'jessica'),
 	)
 );
