@@ -10,7 +10,7 @@ class Homepage_Icon extends WP_Widget {
 	public function __construct() {
 		parent::__construct(
 			'homepageicon',
-			__( 'Homepage Icon', 'jessica' ),
+			__( 'Homepage Icon:hello', 'jessica' ),
 			array(
 				'description' => __( 'Add Icon Textareas to the homepage.', 'jessica' ),
 				'classname'   => 'home-icon',
